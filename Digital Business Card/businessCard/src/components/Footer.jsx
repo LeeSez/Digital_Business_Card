@@ -1,13 +1,13 @@
-import '../style.css'
+import '../mobile.css'
 import React from 'react'
 import twitter from '../assets/twitter-icon.png'
 import facebook from "../assets/facebook-icon.png"
 import github from '../assets/gitHub-icon.png'
 import insta from '../assets/instagram-icon.png'
 
-export default function Footer(){
+export default function Footer({id}){
     return (
-        <footer className='flexRow'>
+        <footer className='flexRow' id={id}>
             <div className='flexRow' id="container">
                 <a target='_blank' href='https://twitter.com/leekosh22'><img src={twitter} /></a>
                 <a target='_blank' href='https://www.facebook.com/profile.php?id=100013705267748'><img src={facebook} /></a>

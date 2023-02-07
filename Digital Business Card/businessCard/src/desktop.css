@@ -1,0 +1,90 @@
+@media (min-width: 765px) {
+    :root{
+        font-size: 2vh;
+    }
+    .top{
+        width: fit-content;
+        padding: 0;
+        margin: 0 1rem 0 0;
+    }
+    .mainImage,.info, footer{
+        max-width: 32vh;
+        padding: 1.5rem !important;
+        aspect-ratio: 1 / 0.8;
+        border-radius: 3vh;
+    }
+    .info{
+        background-color: #F5F5F5;
+        aspect-ratio: 1 / 0.7;
+        position:unset;
+        margin-bottom: 1rem;
+    }
+    .info > h1{
+        color:#2B283A;
+        font-weight: 800;
+    }
+    .info > p{
+        color:#F47D27;
+        font-weight: 400;
+    }
+    .mainImage{
+        order: 2;
+        margin-bottom: 1rem;
+    }
+    #contact{
+        max-width: 32vh;
+        padding: 1.5rem;
+    }
+    .btnOne, .btnTwo{
+        max-width: 14vh;
+    }
+
+
+    .mainContent{
+        width: 32vh;
+        height: 67vh;
+        padding: 1.5rem;
+
+        background-color: #1A1B21;
+        border-radius: 3vh;
+
+        justify-content: space-evenly;
+    }
+    .section{
+        width:auto;
+    }
+    .section > h3 {
+        font-size: 1.4rem;
+    }
+
+    .mainWrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #E9E9E9;
+        width: 100vw;
+        height: 100vh;
+        
+        
+    }
+    footer{
+        height: 2vh;
+        background-color: #1A1B21;
+    }
+    footer img{
+        max-width: 4vh;
+        max-height: 4vh;
+    }
+    #firstFooter{
+        display: none;
+    }
+    #secondFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+
+        width: 32vh;
+    }
+  }

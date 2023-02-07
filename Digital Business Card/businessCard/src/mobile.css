@@ -93,7 +93,7 @@ body{
     margin: 0;
 } 
 
-.section + footer{
+.mainContent + footer{
     margin: 6vh 0 0 0;
 }
 
@@ -132,4 +132,7 @@ footer{
 a, a:visited{
     text-decoration: none;
     color: currentColor;
+}
+#secondFooter{
+    display: none;
 }

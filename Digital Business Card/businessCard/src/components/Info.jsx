@@ -1,5 +1,6 @@
-import '../style.css'
+import '../mobile.css'
 import React from 'react'
+import Footer from "./Footer"
 import email from '../assets/email-icon.png'
 import linkedin from '../assets/vector.png'
 
@@ -21,6 +22,7 @@ export default function Info(){
                     </div></a>
                 </div>
             </div>
+            <Footer id = {"secondFooter"}/>
         </div>
     );
 }
